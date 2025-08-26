@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: pyapp
-          image: nginx:2.0
+          image: nginx:latest
           ports:
             - containerPort: 80
